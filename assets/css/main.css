@@ -1019,6 +1019,58 @@ section,
 .services .service-item:hover .icon i {
   color: var(--accent-color);
 }
+/* ===============================
+   INFRASTRUCTURE PAGE
+=================================*/
+
+.infrastructure {
+  padding: 90px 0;
+  background: #f9fafb;
+}
+
+.infra-subtitle {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0d2238;
+  margin-bottom: 20px;
+}
+
+.infra-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.infra-table th {
+  background: #0d2238;
+  color: #fff;
+  padding: 12px;
+  font-weight: 600;
+}
+
+.infra-table td {
+  padding: 12px;
+  border: 1px solid #e6e6e6;
+  font-size: 15px;
+}
+
+.infra-table tr:nth-child(even) {
+  background: #f4f6f8;
+}
+
+.infra-list {
+  padding-left: 20px;
+  line-height: 2;
+  color: #495057;
+}
+
+.infra-note {
+  margin-top: 25px;
+  font-size: 16px;
+  color: #444;
+}
+
 
 /*-------------------------------------------------------------- # Call To Action Section --------------------------------------------------------------*/
 .call-to-action {
