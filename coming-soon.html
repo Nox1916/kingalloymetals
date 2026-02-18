@@ -36,7 +36,7 @@
   ======================================================== -->
 </head>
 
-<body class="services-page">
+<body class="coming-soon-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
@@ -46,6 +46,7 @@
         <img src="https://res.cloudinary.com/djylb2jbh/image/upload/v1771016563/kam_1_f6fmvr.png" alt="">
         <!--<h1 class="sitename">King Alloy Metals</h1>-->
       </a>
+
 
       <nav id="navmenu" class="navmenu">
         <ul>
@@ -65,10 +66,10 @@
                 </ul>
               </li>-->
               <li><a href="#">Steel Shafts</a></li>
-              <!--<li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 3</a></li>
               <li><a href="#">Dropdown 4</a></li>
             </ul>
-          </li>-->
+          </li>
           <li><a href="coming-soon.html">Quality</a></li>
          <!-- <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="team.html">Team</a></li>
@@ -81,113 +82,107 @@
 
     </div>
   </header>
-   <!-- Page Title -->
-    <div class="page-title dark-background" data-aos="fade" style="background-image: url(assets/img/portfolio-page-title-bg.jpg);">
-      <div class="container">
-        <h1>Infrastructure</h1>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Infrastructure</li>
-          </ol>
-        </nav>
-      </div>
-    </div><!-- End Page Title -->
 
-  <main class="main">
-    <!-- Infrastructure Section -->
-<section id="infrastructure" class="infrastructure section">
+<style>
 
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Infrastructure</h2>
+/* ===============================
+   COMING SOON PAGE
+=================================*/
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0d2238;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* industrial background */
+.coming-wrapper {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.coming-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(rgba(159, 197, 236, 0.85), rgba(13,34,56,0.85)),
+    url("https://res.cloudinary.com/djylb2jbh/image/upload/v1771058143/f2_w3uthb.jpg") center/cover no-repeat;
+  z-index: 1;
+}
+
+.coming-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+}
+
+.coming-content h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.coming-content p {
+  font-size: 20px;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 30px;
+}
+
+/* button */
+.back-btn {
+  display: inline-block;
+  padding: 12px 35px;
+  border-radius: 50px;
+  background: #f57813;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background: #ff9a3c;
+  color: #fff;
+}
+
+/* mobile */
+@media(max-width:768px){
+  .coming-content h1{
+    font-size: 38px;
+  }
+
+  .coming-content p{
+    font-size:16px;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="coming-wrapper">
+  <div class="coming-content">
+
+    <h1>Coming Soon</h1>
+
     <p>
-      We possess advanced machinery units combined with a skilled workforce,
-      enabling us to manufacture high-quality steel forgings with precision.
-    </p>
-  </div>
-
-  <div class="container">
-
-    <h3 class="infra-subtitle">List of Forging Machinery</h3>
-
-    <div class="table-responsive">
-      <table class="infra-table">
-        <thead>
-          <tr>
-            <th>S.No.</th>
-            <th>Machinery</th>
-            <th>Quantity</th>
-          </tr>
-        </thead>
-        <tbody>
-
-          <tr><td>1</td><td>Air Forging Hammers – 1250 Ton</td><td>1 Nos.</td></tr>
-          <!--<tr><td>2</td><td>Ring Hammer – 12 Ton</td><td>01 No.</td></tr>
-          <tr><td>3</td><td>Steam Forging Hammer – 7 Ton</td><td>01 No.</td></tr>
-          <tr><td>4</td><td>Steam Forging Hammer – 5 Ton</td><td>01 No.</td></tr>-->
-          <tr><td>2</td><td>Forging Manipulators –  MT</td><td>1 Nos.</td></tr>
-          <tr><td>3</td><td>Gas Furnace with Temperature Controllers</td><td>01 Nos.</td></tr>
-          <tr><td>4</td><td>Heat Treatment Furnaces (Normalizing)</td><td>01 Nos.</td></tr>
-          <!--<tr><td>8</td><td>SCADA Controlled Heat Treatment Furnace</td><td>01 No.</td></tr>
-          <tr><td>9</td><td>Quenching & Tempering Facility</td><td>02 Nos.</td></tr>-->
-          <tr><td>5</td><td>EOT Cranes & Mobile Crane</td><td>Multiple</td></tr>
-
-        </tbody>
-      </table>
-    </div>
-
-
-    <h3 class="infra-subtitle mt-5">List of Machining Equipments</h3>
-
-    <div class="table-responsive">
-      <table class="infra-table">
-        <thead>
-          <tr>
-            <th>S.No.</th>
-            <th>Equipment</th>
-            <th>Quantity</th>
-          </tr>
-        </thead>
-        <tbody>
-
-          <tr><td>6</td><td>Fully Geared Lathe (German) – 5m</td><td>01 No.</td></tr>
-          <tr><td>7</td><td>VTL Machine (Automatic)</td><td>01 No.</td></tr>
-          <tr><td>8</td><td>Lathe Machines – Various Sizes (8ft–26ft)</td><td>Multiple</td></tr>
-          <tr><td>9</td><td>Band Saw Machines</td><td>04 Nos.</td></tr>
-          <tr><td>10</td><td>Power Hacksaw Machines</td><td>05 Nos.</td></tr>
-          <tr><td>11</td><td>Drill Machines (5mm–100mm)</td><td>02 Nos.</td></tr>
-          <tr><td>12</td><td>EOT Cranes (Machining Section)</td><td>06 Nos.</td></tr>
-          <tr><td>13</td><td>Generator Sets</td><td>03 Nos.</td></tr>
-
-        </tbody>
-      </table>
-    </div>
-
-
-    <h3 class="infra-subtitle mt-5">Testing & Inspection Facilities</h3>
-
-    <ul class="infra-list">
-      <li>Chemical Laboratory & Spectrometer Testing</li>
-      <li>Tensile Strength Testing Machine</li>
-      <li>Impact Testing Machine</li>
-      <li>Brinell & Electronic Hardness Testing</li>
-      <li>Micro / Macro Structure Testing</li>
-      <li>Ultrasonic Testing (UT)</li>
-      <li>Magnetic Particle Inspection (MPI)</li>
-    </ul>
-
-    <p class="infra-note">
-      With the above-mentioned facilities and experienced personnel, we are
-      capable of delivering precision machined components exactly as per
-      customer drawings and specifications.
+      This page is currently under development.<br>
+      We are working to bring detailed information shortly.
     </p>
 
+    <a href="index.html" class="back-btn">Back to Home</a>
+
   </div>
-
-</section>
-</main>
-
-
+</div>
 <footer id="footer" class="footer light-background">
 
   <div class="footer-top">
@@ -271,24 +266,5 @@
 
 </footer>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
 </body>
-
 </html>
